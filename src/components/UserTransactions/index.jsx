@@ -46,9 +46,9 @@ export default function UserTransactions() {
       <div className="sm:flex sm:items-center sm:justify-between mb-6">
         <h2 className="text-white font-bold text-xl md:text-2xl">Card transactions by user</h2>
         <div className="mt-4 sm:mt-0">
-          <Button handleClick={() => handleButtonClick('./transactions-small.json')}>Fetch data (sm)</Button>
-          <Button handleClick={() => handleButtonClick('./transactions-medium.json')}>Fetch data (md)</Button>
-          <Button handleClick={() => handleButtonClick('./transactions-large.json')}>Fetch data (lg)</Button>
+          <Button handleClick={() => handleButtonClick('./assets/transactions-small.json')}>Fetch data (sm)</Button>
+          <Button handleClick={() => handleButtonClick('./assets/transactions-medium.json')}>Fetch data (md)</Button>
+          <Button handleClick={() => handleButtonClick('./assets/transactions-large.json')}>Fetch data (lg)</Button>
         </div>
       </div>
 
