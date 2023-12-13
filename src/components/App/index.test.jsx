@@ -5,7 +5,7 @@ import App from '.'
 describe('App component', () => {
   it('should display the structure of the application without data table', () => {
     render(<App />);
-    expect(screen.getByRole('heading', { name: 'Monolith.xyz' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Company.xyz' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'Card transactions by user' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Fetch data (sm)' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Fetch data (md)' })).toBeInTheDocument();
